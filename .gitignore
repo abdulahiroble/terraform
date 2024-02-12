@@ -1,0 +1,40 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# Crash log files
+crash.log
+
+# Exclude any sensitive or private information
+*.secret
+*.tfplan
+
+# Exclude provider credentials
+terraform.tfvars
+
+# Exclude override files as they're usually used to override shared settings
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include a provider lock file to avoid accidental provider upgrades
+terraform-provider-*
+
+# Exclude CLI configuration files
+.terraformrc
+terraform.rc
+
+# Exclude macOS metadata
+.DS_Store
+
+# Exclude temporary files
+*.bak
+*.swp
+*~
